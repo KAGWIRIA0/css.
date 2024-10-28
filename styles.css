@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+nav {
+    background: #e1ddd7;
+      box-shadow: 6px -1px 9px 5px rgba(0,0,0,0.38);
+      -webkit-box-shadow: 6px -1px 9px 5px rgba(0,0,0,0.38);
+       -moz-box-shadow: 6px -1px 9px 5px rgba(0,0,0,0.38);
+      position: sticky;
+     top: 0;
+
+
+}
+nav ul{
+    display:flex;
+    justify-content:flex-end;/*position yo the right*/
+    align-items:center;/*vertically align at the center*/
+    list-style:none;/* remove bullets*/
+    height:60px;
+
+}
+
+nav li{
+    padding:0px 24px;
+}
+
+nav li:first-child{
+    margin-right: auto;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ae4c4c;
+    font-weight:400;
+    transition: color 400ms, font-size 400ms;
+}
+
+nav a:hover{
+    color: #c12121;
+    font-size:1.08em;
+}
+footer{
+    border-top: 1px solid #343421;
+}
+footer .Social-Media-Links{
+    height:80px;
+    background: #a67844;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.Social-Media-Links a{
+    margin:0 18px
+}
+.Social-Media-Links img{
+    width:40px;
+    height:40px;
+}
+
+
+footer .copyright{
+    padding:16px 0;
+    text-align: center;
+}
+
+/*Hero section*/
+.hero{
+    min-height:100vh;
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /*parallax effect*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero div{
+    width:80%;
+    background: rgba(240, 248, 255, 0.27);
+    padding: 20px 16px;
+    border-radius: 15px;
+    color: rgb(18, 15, 9);
+}
+
+.hero h2{
+    text-align: center;
+    margin-bottom: 16px ;
+    font-size: 1.8em;
+}
+.hero p{
+    text-align: justify;
+    line-height: 24px;
+}
+
+/*features section*/
+.features{
+    display: flex;
+}
+.left-div, .right-div{
+    width: 50%;
+
+
+}
+
+.left-div img{
+    width: 100%;
+    height: 100%;
+}
+
+.right-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 16px;
+    text-align: center;
+}
+
+/*Add animations*/
+
+
+
+
+
